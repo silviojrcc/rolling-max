@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>RollingMax</title>
+  </head>
+  <body>
+    <main>
+      <section id="carouselExampleCaptions" class="carousel slide carousel-desktop d-none d-md-none d-lg-block">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="contenedor-banner">
+              <img
+                src="imagenes/interestellar-horizontal3.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula interestellar, se puede observar dos hombres y una nave en un planeta desconocido"
+              />
+            </div>
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h5 class="carrousel-titulo-pelicula fs-1">Interestellar</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="contenedor-banner">
+              <img
+                src="./imagenes/joker horizontal.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula joker, se observa al joker bailando al final de unas escaleras"
+              />
+            </div>
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h5 class="carrousel-titulo-pelicula fs-1">El bromas</h5>
+              <p>
+                Descubre por que las personas con problemas mentales son
+                divertidas
+              </p>
+              <a href="./pages/pelicula-joker.html" class="btn btn-primary">Ver ahora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="contenedor-banner">
+              <img
+                src="./imagenes/inception-horizontal.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula inception, se ve a los personajes en una realidad que desafia las reglas de la fisica"
+              />
+            </div>
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h5 class="carrousel-titulo-pelicula fs-1">Inception</h5>
+              <p>Es como matrix... pero mejor!</p>
+              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev boton-carrousel"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next boton-carrousel"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section id="carouselMobile" class="carousel slide carousel-mobile d-lg-none">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselMobile"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselMobile"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselMobile"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="contenedor-banner">
+              <img
+                src="imagenes/interestellar-vertical.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula interestellar, se puede observar dos hombres y una nave en un planeta desconocido"
+              />
+            </div>
+            <div class="carousel-caption text-start">
+              <h5 class="carrousel-titulo-pelicula fs-1">Interestellar</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="contenedor-banner">
+              <img
+                src="./imagenes/joker-vertical.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula joker, se observa al joker bailando al final de unas escaleras"
+              />
+            </div>
+            <div class="carousel-caption text-start">
+              <h5 class="carrousel-titulo-pelicula fs-1">El bromas</h5>
+              <p>
+                Descubre por que las personas con problemas mentales son
+                divertidas
+              </p>
+              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="contenedor-banner">
+              <img
+                src="./imagenes/inception-vertical.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula inception, se ve a los personajes en una realidad que desafia las reglas de la fisica"
+              />
+            </div>
+            <div class="carousel-caption text-start">
+              <h5 class="carrousel-titulo-pelicula fs-1">Inception</h5>
+              <p>Es como matrix... pero mejor!</p>
+              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev boton-carrousel"
+          type="button"
+          data-bs-target="#carouselMobile"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next boton-carrousel"
+          type="button"
+          data-bs-target="#carouselMobile"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section class="sugeridos">
+        <div class="container-fluid p-5">
+          <h2 class="text-center text-light">
+            Conocé nuestras películas sugeridas!
+          </h2>
+          <div class="row justify-content-md-around align-items-md-center my-5">
+            <div class="contenedor-imagen mb-5 col-md-4 col-xl-3">
+              <img
+                class="w-100"
+                src="./imagenes/inception-vertical.jpg"
+                alt=""
+              />
+            </div>
+            <div class="contenedor-imagen mb-5 col-md-4 col-xl-3">
+              <img
+                class="w-100"
+                src="./imagenes/interestellar-vertical.jpg"
+                alt=""
+              />
+            </div>
+            <div class="contenedor-imagen mb-5 col-md-4 col-xl-3">
+              <img class="w-100" src="./imagenes/joker-vertical.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sugeridos">
+        <div class="container-fluid p-5">
+          <h2 class="text-center text-light">También tenemos series!</h2>
+          <div class="row justify-content-md-around align-items-md-center my-5">
+            <div class="contenedor-imagen mb-5 col-md-3">
+              <img
+                class="w-100"
+                src="./imagenes/inception-vertical.jpg"
+                alt=""
+              />
+            </div>
+            <div class="contenedor-imagen mb-5 col-md-3">
+              <img
+                class="w-100"
+                src="./imagenes/interestellar-vertical.jpg"
+                alt=""
+              />
+            </div>
+            <div class="contenedor-imagen mb-5 col-md-3">
+              <img class="w-100" src="./imagenes/joker-vertical.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categorias">
+        <div class="container p5 mt-5">
+          <h2 class="display-6 text-center text-light">Conocé nuestras categorias</h2>
+          <div class="row justify-content-around align-items-center my-5">
+            <figure class="categoria col-md-5 mb-5">
+              <img src="./imagenes/categoria-ciencia-ficcion.png" alt="" class="w-100 img">
+            </figure>
+            <article class="categoria col-md-5 mb-5">
+              <img src="./imagenes/categoria-ciencia-ficcion.png" alt="" class="w-100 img">
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="precios">
+        <div class="container-fluid p-5">
+          <h2 class="text-center text-light">Elegí tu plan!</h2>
+          <div class="row justify-content-around align-items-center my-5">
+            <div class="card bg-card text-light col-md-3 mb-5">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-center display-6">
+                  3 meses
+                </h6>
+                <h5 class="card-title text-center display-4">$1.349,00</h5>
+                <ul>
+                  <li>
+                    <p>Igual $449,00 al mes.</p>
+                  </li>
+                  <li>
+                    <p>Disfruta en todas tus pantallas.</p>
+                  </li>
+                  <li>
+                    <p>Contenido en 4k.</p>
+                  </li>
+                  <li>
+                    <p>2 dispositivos a la vez.</p>
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100 rounded-5">ELIGE ESTE PLAN</a>
+              </div>
+            </div>
+            <div class="card bg-card border-primary card-promo mb-5 col-md-3">
+              <div class="card-body text-light">
+                <h6 class="card-subtitle mb-2 text-center display-6">
+                  12 meses
+                </h6>
+                <h5 class="card-title text-center display-4">$4.299,00</h5>
+                <ul>
+                    <li>
+                      <p>Igual $358,00 al mes.</p>
+                    </li>
+                    <li>
+                      <p>Disfruta en todas tus pantallas.</p>
+                    </li>
+                    <li>
+                      <p>Contenido en 4k.</p>
+                    </li>
+                    <li>
+                      <p>3 dispositivos a la vez.</p>
+                    </li>
+                    <li>
+                      <p>Descargá el contenido y disfruta donde sea.</p>
+                    </li>
+                    <li>
+                      <p>5 perfilespara toda la familia.</p>
+                    </li>
+                  </ul>
+                <a href="#" class="btn btn-primary w-100 rounded-5">ELIGE ESTE PLAN</a>
+              </div>
+            </div>
+            <div class="card bg-card text-light col-md-3 mb-5">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-center display-6">1 mes</h6>
+                <h5 class="card-title text-center display-4">$499,00</h5>
+                <ul>
+                    <li>
+                      <p>Disfruta en todas tus pantallas.</p>
+                    </li>
+                    <li>
+                      <p>Contenido en Hd.</p>
+                    </li>
+                    <li>
+                      <p>1 dispositivo a la vez.</p>
+                    </li>
+                  </ul>
+                <a href="#" class="btn btn-primary w-100 rounded-5">ELIGE ESTE PLAN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
