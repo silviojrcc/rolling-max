@@ -10,12 +10,13 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/b48a9ff1d2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>RollingMax</title>
   </head>
   <body>
     <main>
-      <section id="carouselExampleCaptions" class="carousel slide carousel-desktop d-none d-md-none d-lg-block">
+      <section id="carouselExampleCaptions" class="carousel slide carousel-desktop">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -40,30 +41,44 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="contenedor-banner">
+            <div class="contenedor-banner d-lg-none">
+              <img
+                src="imagenes/interestellar-vertical.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula interestellar, se puede observar dos hombres y una nave en un planeta desconocido"
+              />
+            </div>
+            <div class="contenedor-banner d-none d-lg-block">
               <img
                 src="imagenes/interestellar-horizontal3.jpg"
                 class="d-block w-100 banner"
                 alt="banner pelicula interestellar, se puede observar dos hombres y una nave en un planeta desconocido"
               />
             </div>
-            <div class="carousel-caption d-none d-md-block text-start">
+            <div class="carousel-caption text-start">
               <h5 class="carrousel-titulo-pelicula fs-1">Interestellar</h5>
               <p>
                 Some representative placeholder content for the first slide.
               </p>
-              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
+              <a href="./pages/pelicula-interestellar.html" class="btn btn-primary">Ver ahora</a>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="contenedor-banner">
+            <div class="contenedor-banner d-lg-none">
+              <img
+                src="./imagenes/joker-vertical.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula joker, se observa al joker bailando al final de unas escaleras"
+              />
+            </div>
+            <div class="contenedor-banner d-none d-lg-block">
               <img
                 src="./imagenes/joker horizontal.jpg"
                 class="d-block w-100 banner"
                 alt="banner pelicula joker, se observa al joker bailando al final de unas escaleras"
               />
             </div>
-            <div class="carousel-caption d-none d-md-block text-start">
+            <div class="carousel-caption text-start">
               <h5 class="carrousel-titulo-pelicula fs-1">El bromas</h5>
               <p>
                 Descubre por que las personas con problemas mentales son
@@ -73,104 +88,20 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="contenedor-banner">
-              <img
-                src="./imagenes/inception-horizontal.jpg"
-                class="d-block w-100 banner"
-                alt="banner pelicula inception, se ve a los personajes en una realidad que desafia las reglas de la fisica"
-              />
-            </div>
-            <div class="carousel-caption d-none d-md-block text-start">
-              <h5 class="carrousel-titulo-pelicula fs-1">Inception</h5>
-              <p>Es como matrix... pero mejor!</p>
-              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev boton-carrousel"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next boton-carrousel"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </section>
-      <section id="carouselMobile" class="carousel slide carousel-mobile d-lg-none">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselMobile"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselMobile"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselMobile"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="contenedor-banner">
-              <img
-                src="imagenes/interestellar-vertical.jpg"
-                class="d-block w-100 banner"
-                alt="banner pelicula interestellar, se puede observar dos hombres y una nave en un planeta desconocido"
-              />
-            </div>
-            <div class="carousel-caption text-start">
-              <h5 class="carrousel-titulo-pelicula fs-1">Interestellar</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="contenedor-banner">
-              <img
-                src="./imagenes/joker-vertical.jpg"
-                class="d-block w-100 banner"
-                alt="banner pelicula joker, se observa al joker bailando al final de unas escaleras"
-              />
-            </div>
-            <div class="carousel-caption text-start">
-              <h5 class="carrousel-titulo-pelicula fs-1">El bromas</h5>
-              <p>
-                Descubre por que las personas con problemas mentales son
-                divertidas
-              </p>
-              <a href="./index.html" class="btn btn-primary">Ver ahora</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="contenedor-banner">
+            <div class="contenedor-banner d-lg-none">
               <img
                 src="./imagenes/inception-vertical.jpg"
                 class="d-block w-100 banner"
                 alt="banner pelicula inception, se ve a los personajes en una realidad que desafia las reglas de la fisica"
               />
             </div>
+            <div class="contenedor-banner d-none d-lg-block">
+              <img
+                src="./imagenes/inception-horizontal.jpg"
+                class="d-block w-100 banner"
+                alt="banner pelicula inception, se ve a los personajes en una realidad que desafia las reglas de la fisica"
+              />
+            </div>
             <div class="carousel-caption text-start">
               <h5 class="carrousel-titulo-pelicula fs-1">Inception</h5>
               <p>Es como matrix... pero mejor!</p>
@@ -181,7 +112,7 @@
         <button
           class="carousel-control-prev boton-carrousel"
           type="button"
-          data-bs-target="#carouselMobile"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -190,7 +121,7 @@
         <button
           class="carousel-control-next boton-carrousel"
           type="button"
-          data-bs-target="#carouselMobile"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
