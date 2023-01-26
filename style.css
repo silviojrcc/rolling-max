@@ -137,3 +137,10 @@
 .info-pelicula {
   color: rgb(169, 168, 168);
 }
+
+
+.background-error {
+  background-image: url(./imagenes/bg-error.webp);
+  background-repeat: round;
+  height: 100vh;
+}
