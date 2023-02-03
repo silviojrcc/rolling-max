@@ -10,13 +10,39 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/b48a9ff1d2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>RollingMax</title>
   </head>
   <body>
+    <nav class="navbar navb navbar-expand-lg bg-body-tertiary bg-dark bg-opacity-25 navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><img class="w-25" src="./imagenes/logoFucsia.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="nav-link text-light mx-1" aria-current="page" href="./pages/suscripcion.html"><button type="button" class="btn botonPurpura fw-bolder">Suscríbete</button></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="" href="./pages/inicio-sesion.html"><button type="button" class="btn bg-transparent text-light px-0 fw-bolder"><i class="bi bi-person-fill"></i> Iniciar Sesión</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bolder" aria-current="page" href="#">Películas</a>
+            </li>
+            <li><a class="nav-link fw-bolder" aria-current="page" href="#">Series</a></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
     <main>
-      <section id="carouselPrincipal" class="carousel slide carousel-desktop">
+      <section id="carouselPrincipal" class="carousel slide">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -269,7 +295,33 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-transparent py-3">
+      <section class="container">
+        <article class="row">
+          <aside class="col-12 col-md-4 py-md-3">
+            <div class="text-center text-md-start">
+              <a href="./pages/error-404.html" class="text-light fs-3 mx-2"><i class="bi bi-instagram"></i></a>
+              <a href="./pages/error-404.html" class="text-light fs-3"><i class="bi bi-youtube"></i></a>
+              <a href="./pages/error-404.html" class="text-light fs-3"><i class="bi bi-facebook"></i></a>
+              <a href="./pages/error-404.html" class="text-light fs-3 mx-2"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </aside>
+          <aside class="col-12 col-md-4 text-center p-3">
+            <a href="./index.html">
+              <img src="./imagenes/logoBlanco.png" alt="Logo Rolling Max" width="100px"/>
+            </a>
+          </aside>
+          <aside class="col-12 col-md-4 text-center py-2">
+            <div></div>
+            <a href="acercaNosotros.html" class="text-light fs-5 fw-bold">Acerca de nosotros</a>
+          </div>
+          <div>
+            <a href="./pages/contacto.html" class="text-light fs-5 fw-bold">Contáctanos</a>
+          </div>
+          </aside>
+        </article>
+      </section>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
