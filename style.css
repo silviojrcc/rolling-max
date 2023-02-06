@@ -145,6 +145,33 @@ a {
   padding: 5%;
 }
 
+/* Página categorías */
+.paginacion {
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.paginacion ul {
+  list-style: none;
+  text-align: center;
+  flex-direction: column;
+}
+.paginacion ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+.paginacion ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #7b24d6;
+  list-style: none;
+  text-decoration: none;
+}
+.paginacion ul li a:hover {
+  background-color: #9e86ff;
+}
+
 /* Media queries */
 @media all and (min-width: 767px) {
 }
