@@ -89,52 +89,54 @@
         </div>
       </div>
     </nav>
-    <main
-      class="container-fluid gradient-background row justify-content-center"
-    >
-      <h1 class="display-1 text-center text-light py-5">Iniciar sesión</h1>
-      <article class="card bg-card text-light mb-5">
-        <div class="card-body">
-          <form class="">
-            <div class="row g-3">
-              <div class="col-12">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="tu@mail.com"
-                  required
-                />
-              </div>
-
-              <div class="col-12">
-                <label for="password" class="form-label">Contraseña</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                  placeholder=""
-                  required
-                />
-              </div>
+    <main class="gradient-background">
+      <section class="container-fluid">
+        <h1 class="display-1 text-center text-light py-5">Iniciar sesión</h1>
+        <div class="inicio-sesion">
+          <article class="card bg-card text-light mb-5 inicio-sesion_card">
+            <div class="card-body">
+              <form class="">
+                <div class="row g-3">
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="tu@mail.com"
+                      required
+                    />
+                  </div>
+  
+                  <div class="col-12">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder=""
+                      required
+                    />
+                  </div>
+                </div>
+  
+                <hr class="my-4" />
+                <button class="w-100 btn btn-primary btn-lg" type="submit">
+                  Iniciar sesión
+                </button>
+                <div class="text-center">
+                  <a class="" href="">¿Olvidaste la contraseña?</a>
+                </div>
+                <hr class="my-4" />
+                <p class="text-center">
+                  Si no tenés una cuenta podés crearte una haciendo click
+                  <a href="./suscripcion.html">aquí</a>
+                </p>
+              </form>
             </div>
-
-            <hr class="my-4" />
-            <button class="w-100 btn btn-primary btn-lg" type="submit">
-              Iniciar sesión
-            </button>
-            <div class="text-center">
-              <a class="" href="">¿Olvidaste la contraseña?</a>
-            </div>
-            <hr class="my-4" />
-            <p class="text-center">
-              Si no tenés una cuenta podés crearte una haciendo click
-              <a href="./suscripcion.html">aquí</a>
-            </p>
-          </form>
+          </article>
         </div>
-      </article>
+      </section>
     </main>
     <footer class="bg-transparent py-3">
       <section class="container">
@@ -166,7 +168,9 @@
           </aside>
           <aside class="col-12 col-md-4 text-center py-2">
             <div>
-              <a href="../pages/acerca-nosotros.html" class="text-light fs-5 fw-bold"
+              <a
+                href="../pages/acerca-nosotros.html"
+                class="text-light fs-5 fw-bold"
                 >Acerca de nosotros</a
               >
             </div>
