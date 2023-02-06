@@ -16,6 +16,12 @@ main {
   flex-grow: 1;  
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Index */
+
 .banner {
   height: 100vh;
   /* object-fit: fill; */
@@ -136,16 +142,6 @@ main {
   flex-direction: column;
 }
 
-/* Poner en dispositivos pequeños esto */
-.inicio-sesion_card {
-  max-width: 300px;
-}
-
-/* @media only screen and (max-width: 768px) {
-  .background-error {
-    background-position: center;
-  }
-} */
 
 /* cosas extra */
 
@@ -156,9 +152,8 @@ main {
   color: white;
 }
 
-a {
-  text-decoration: none;
-}
+
+/* Página acerca de nosotros */
 
 .infoBox {
   background-color: white;
@@ -188,5 +183,9 @@ a {
 
   .position {
     margin-top: 10%;
+  }
+
+  .inicio-sesion_card {
+    max-width: 300px;
   }
 }
