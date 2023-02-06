@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/b48a9ff1d2.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,8 +14,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+    <script
+      src="https://kit.fontawesome.com/b48a9ff1d2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../style.css" />
-    <title>RollingMax - Interestellar</title>
+    <title>RollingMax - Conoce nuestros planes</title>
   </head>
   <body>
     <nav class="navbar navb navbar-expand-lg bg-dark bg-opacity-25 navbar-dark">
@@ -59,12 +59,18 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bolder" aria-current="page" href="./error-404.html"
+              <a
+                class="nav-link fw-bolder"
+                aria-current="page"
+                href="./error-404.html"
                 >Películas</a
               >
             </li>
             <li>
-              <a class="nav-link fw-bolder" aria-current="page" href="./error-404.html"
+              <a
+                class="nav-link fw-bolder"
+                aria-current="page"
+                href="./error-404.html"
                 >Series</a
               >
             </li>
@@ -84,62 +90,76 @@
       </div>
     </nav>
     <main>
-      <section class="contenedor-banner d-md-none">
-        <img
-          src="../img/interestellar-vertical.jpg"
-          alt=""
-          class="w-100 banner"
-        />
-      </section>
-      <section class="contenedor-banner d-none d-md-block">
-        <img
-          src="../img/interestellar-horizontal2.jpg"
-          alt=""
-          class="w-100 banner"
-        />
-      </section>
-      <section class="gradient-background text-light">
-        <div class="container">
-          <h1 class="display-1">Interestellar</h1>
-          <div class="info-pelicula d-flex">
-            <p class="mx-2">2h 49min</p>
-            <p class="mx-2">13+</p>
-            <p class="mx-2">2014</p>
-            <p class="mx-2">HD</p>
+      <section class="position">
+        <article>
+          <h1 class="fw-bold text-light text-center pb-2">
+            UN POCO ACERCA DE NOSOTROS
+          </h1>
+          <div class="infoBox">
+            <p class>
+              Somos un equipo de futuros programadores Fullstack. Actualmente
+              estamos estudiando en <b>Rolling Code School</b>. Cada día
+              aprendemos no sólo a programar sino también a enfrentarnos siempre
+              a nuevos desafíos. Como parte de un nuevo desafío es que decidimos
+              crear <b>Rolling MAX</b>.
+            </p>
           </div>
-          <a href="./inicio-sesion.html" class="btn btn-primary"
-            ><i class="fa-regular fa-user mx-2"></i>Iniciar sesión</a
-          >
-          <p class="mt-3 w-75">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-            eligendi quidem distinctio debitis placeat, dolor facere unde
-            veritatis, magni optio dolore consequuntur aperiam. Dolorem
-            accusantium nisi tempora, molestias laboriosam inventore.
+        </article>
+
+        <article>
+          <p class="fw-bold text-light text-center fst-italic py-5">
+            "Creas lo que crees"
           </p>
-        </div>
-      </section>
-      <section class="categorias">
-        <div class="container p5 mt-5">
-          <h2 class="display-6 text-center text-light">
-            Busca en otras categorías
-          </h2>
-          <div class="row justify-content-around align-items-center my-5">
-            <figure class="categoria col-md-5 mb-5">
+        </article>
+
+        <article>
+          <div class="card-group mx-4 mx-lg-51 text-dark fw-bold">
+            <div class="card">
               <img
-                src="../img/categoria-ciencia-ficcion.png"
-                alt=""
-                class="w-100 img"
+                src="../img/nosotros1.jpg"
+                class="card-img-top"
+                alt="Javier"
               />
-            </figure>
-            <article class="categoria col-md-5 mb-5">
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Javier</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+            <div class="card">
               <img
-                src="../img/categoria-ciencia-ficcion.png"
-                alt=""
-                class="w-100 img"
+                src="../img/nosotros2.jpg"
+                class="card-img-top"
+                alt="Lorena"
               />
-            </article>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Lorena</h5>
+                <p class="card-text">
+                  Estudiante avanzada de Ingeniería en Computación. Amo diseñar
+                  y programar.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="../img/nosotros3.jpg"
+                class="card-img-top"
+                alt="Silvio"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Silvio</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="bg-transparent py-3">

@@ -92,6 +92,11 @@
         <div class="pt-4 row justify-content-around my-5">
           <article class="card bg-card border-primary card-promo mb-5 col-md-3">
             <div class="card-body text-light">
+              <p class="text-center fs-5">Plan seleccionado</p>
+              <p class="text-center">
+                Puedes ver nuestros otros planes haciendo click
+                <a href="./suscripcion.html">aqui</a>
+              </p>
               <h6 class="card-subtitle mb-2 text-center display-6">12 meses</h6>
               <h5 class="card-title text-center display-4">$4.299,00</h5>
               <ul>
@@ -114,11 +119,6 @@
                   <p>5 perfilespara toda la familia.</p>
                 </li>
               </ul>
-              <p class="text-center fs-5">Plan seleccionado</p>
-              <p class="text-center">
-                Puedes ver nuestros otros planes haciendo click
-                <a href="./suscripcion.html">aqui</a>
-              </p>
             </div>
           </article>
           <div class="col-md-6 col-lg-6 text-light">
@@ -132,6 +132,8 @@
                     class="form-control"
                     id="nombre"
                     value=""
+                    minlength="10"
+                    maxlength="50"
                     required
                   />
                 </div>
@@ -143,6 +145,8 @@
                     class="form-control"
                     id="apellido"
                     value=""
+                    minlength="10"
+                    maxlength="50"
                     required
                   />
                 </div>
@@ -154,6 +158,8 @@
                     class="form-control"
                     id="email"
                     placeholder="tu@mail.com"
+                    minlength="10"
+                    maxlength="100"
                     required
                   />
                 </div>
@@ -164,6 +170,8 @@
                     type="password"
                     class="form-control"
                     id="password"
+                    minlength="8"
+                    maxlength="30"
                     required
                   />
                 </div>
@@ -208,7 +216,7 @@
           </aside>
           <aside class="col-12 col-md-4 text-center py-2">
             <div>
-              <a href="acercaNosotros.html" class="text-light fs-5 fw-bold"
+              <a href="../pages/acerca-nosotros.html" class="text-light fs-5 fw-bold"
                 >Acerca de nosotros</a
               >
             </div>
