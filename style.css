@@ -8,12 +8,12 @@
 
 body {
   background: rgb(2, 2, 28);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   min-height: 100vh;
 }
 
 main {
-  flex-grow: 1;  
+  flex-grow: 1;
 }
 
 a {
@@ -31,7 +31,8 @@ a {
   overflow: auto;
 }
 
-.botonPurpura, .btn-primary {
+.botonPurpura,
+.btn-primary {
   background-color: #7b24d6;
   background-image: linear-gradient(90deg, #7b24d6 0%, #d81be2 100%);
   border: none;
@@ -78,6 +79,33 @@ a {
     rgba(2, 2, 28, 0) 0%,
     rgba(44, 62, 80, 1) 100%
   );
+}
+
+.categorias {
+  margin: 20px 0;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.categorias ul {
+  list-style: none;
+  text-align: center;
+  flex-direction: column;
+}
+.categorias ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+.categorias ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #7b24d6;
+  list-style: none;
+  text-decoration: none;
+}
+.categorias ul li a:hover {
+  background-color: #9e86ff;
 }
 
 /* Página error 404 */
@@ -140,5 +168,4 @@ a {
   .inicio-sesion_card {
     max-width: 1000px;
   }
-
 }
