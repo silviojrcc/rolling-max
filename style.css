@@ -61,13 +61,13 @@ a {
   );
 }
 
-.card {
+.carta {
   background-color: transparent;
   width: 369px;
   min-width: 300px;
 }
 
-.card:not(.card-promo) {
+.carta:not(.card-promo) {
   border: none;
 }
 
@@ -147,7 +147,7 @@ a {
   background-color: white;
   border-radius: 10px;
   width: 80%;
-  height: 150px;
+  height: 250px;
   text-align: center;
   color: black;
   font-weight: 900;
@@ -184,6 +184,9 @@ a {
 
 /* Media queries */
 @media all and (min-width: 767px) {
+  .infoBox{
+    height: 150px;
+  }
 }
 
 @media all and (min-width: 991px) {
