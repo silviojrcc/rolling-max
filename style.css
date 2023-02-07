@@ -81,6 +81,10 @@ a {
   );
 }
 
+.border-primary {
+  border: 2px solid #d81be2 !important;
+}
+
 .categorias {
   margin: 20px 0;
   flex-wrap: wrap;
